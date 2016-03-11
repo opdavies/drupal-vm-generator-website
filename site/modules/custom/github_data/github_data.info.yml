@@ -1,0 +1,5 @@
+name: GitHub Data
+type: module
+description: Gets data from GitHub.
+core: 8.x
+package: Custom

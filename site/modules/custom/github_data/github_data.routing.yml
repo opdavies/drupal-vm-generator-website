@@ -1,0 +1,7 @@
+github_data.download:
+  path: '/download'
+  defaults:
+    _controller: '\Drupal\github_data\Controller\DownloadController::index'
+    _title: 'Download'
+  requirements:
+    _permission: 'access content'

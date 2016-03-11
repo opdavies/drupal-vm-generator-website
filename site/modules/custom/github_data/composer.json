@@ -1,0 +1,7 @@
+{
+  "name": "drupal/github_data",
+  "type": "drupal-module",
+  "require": {
+    "knplabs/github-api": "~1.6"
+  }
+}
