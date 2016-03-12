@@ -38,11 +38,8 @@ return array(
     'GuzzleHttp\\Promise\\' => array($vendorDir . '/guzzlehttp/promises/src'),
     'GuzzleHttp\\' => array($vendorDir . '/guzzlehttp/guzzle/src'),
     'Goutte\\' => array($vendorDir . '/fabpot/goutte/Goutte'),
-<<<<<<< HEAD
     'Github\\' => array($vendorDir . '/knplabs/github-api/lib/Github'),
     'Drupal\\composer_manager\\Composer\\' => array($baseDir . '/modules/contrib/composer_manager/src/Composer'),
-=======
->>>>>>> b72c24c... Add Drupal 8
     'Drupal\\Driver\\' => array($baseDir . '/drivers/lib/Drupal/Driver'),
     'Drupal\\Core\\Composer\\' => array($baseDir . '/core/lib/Drupal/Core/Composer'),
     'Drupal\\Core\\' => array($baseDir . '/core/lib/Drupal/Core'),
