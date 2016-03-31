@@ -31,7 +31,7 @@ class DownloadController extends ControllerBase {
   /**
    * The name of the file to download.
    */
-  const FILENAME = 'drupalvm-generate.phar';
+  const FILENAME = 'drupalvm.phar';
 
   /**
    * {@inheritdoc}
