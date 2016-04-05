@@ -5,3 +5,11 @@ github_data.download:
     _title: 'Download'
   requirements:
     _permission: 'access content'
+
+github_data.manifest_controller_index:
+  path: '/manifest.json'
+  defaults:
+    _controller: '\Drupal\github_data\Controller\ManifestController::index'
+    _title: 'Manifest'
+  requirements:
+    _permission: 'access content'
