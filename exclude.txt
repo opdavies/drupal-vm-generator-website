@@ -1,6 +1,0 @@
-.git/
-.idea/
-*.*sql*
-*.txt
-*.local.php
-site/sites/*/files/
