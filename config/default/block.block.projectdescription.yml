@@ -1,0 +1,25 @@
+uuid: 9f6211b0-adde-46d5-ad00-cd02b3222dab
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:6ee302ab-ea24-4522-8827-3972f1d212c7'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: projectdescription
+theme: bartik
+region: '-1'
+weight: -7
+provider: null
+plugin: 'block_content:6ee302ab-ea24-4522-8827-3972f1d212c7'
+settings:
+  id: 'block_content:6ee302ab-ea24-4522-8827-3972f1d212c7'
+  label: 'Project description'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
