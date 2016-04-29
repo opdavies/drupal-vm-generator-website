@@ -1,2 +1,4 @@
-publish.sh
+web/sites/*/files
 web/vendor/
+*.local.php
+local.*.php
