@@ -1,5 +1,0 @@
-/* override default code style for code tags using gist-embed class */
-code.gist-embed {
-    background: none;
-    padding: 0px;
-}
