@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "92a886f5e9b183ad279a32c425c47679",
-    "content-hash": "87c571e232c4a68f80dd8b940f1d1cd6",
+    "hash": "edb0bd4f9f84ed9bdc0a7256dfb0a9b5",
+    "content-hash": "193bf639eb71e0601caa4ffd16b39531",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -865,16 +865,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "8.1.2",
+            "version": "8.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal-composer/drupal-core.git",
-                "reference": "a5d3f14db87ef953d227fb411489bada1afbb0a8"
+                "reference": "3870ff6a47e723e3dce857473329d2f143e88d93"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal-composer/drupal-core/zipball/a5d3f14db87ef953d227fb411489bada1afbb0a8",
-                "reference": "a5d3f14db87ef953d227fb411489bada1afbb0a8",
+                "url": "https://api.github.com/repos/drupal-composer/drupal-core/zipball/3870ff6a47e723e3dce857473329d2f143e88d93",
+                "reference": "3870ff6a47e723e3dce857473329d2f143e88d93",
                 "shasum": ""
             },
             "require": {
@@ -883,7 +883,7 @@
                 "doctrine/common": "2.5.*",
                 "easyrdf/easyrdf": "0.9.*",
                 "egulias/email-validator": "1.2.*",
-                "guzzlehttp/guzzle": "~6.1",
+                "guzzlehttp/guzzle": "~6.2",
                 "masterminds/html5": "~2.1",
                 "paragonie/random_compat": "~1.0",
                 "php": ">=5.5.9",
@@ -929,8 +929,10 @@
                 "drupal/content_translation": "self.version",
                 "drupal/contextual": "self.version",
                 "drupal/core-annotation": "self.version",
+                "drupal/core-assertion": "self.version",
                 "drupal/core-bridge": "self.version",
                 "drupal/core-datetime": "self.version",
+                "drupal/core-dependency-injection": "self.version",
                 "drupal/core-diff": "self.version",
                 "drupal/core-discovery": "self.version",
                 "drupal/core-event-dispatcher": "self.version",
@@ -1029,7 +1031,7 @@
                 "GPL-2.0+"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2016-06-01 23:31:24"
+            "time": "2016-07-18 15:01:43"
         },
         {
             "name": "drupal/ctools",
@@ -1553,6 +1555,7 @@
                 "rest",
                 "web service"
             ],
+            "abandoned": "guzzlehttp/guzzle",
             "time": "2015-03-18 18:23:50"
         },
         {
