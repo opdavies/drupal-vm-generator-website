@@ -15,8 +15,17 @@
             "url": "https://packages.drupal.org/8"
         },
         {
-            "type": "vcs",
-            "url": "https://github.com/jmolivas/gist_embed"
+            "type": "package",
+            "package": {
+                "name": "drupal/gist_embed",
+                "version": "dev-master",
+                "type": "drupal-module",
+                "source": {
+                    "url": "https://github.com/jmolivas/gist_embed.git",
+                    "type": "git",
+                    "reference": "8.1.x"
+                }
+            }
         }
     ],
     "require": {
@@ -72,6 +81,11 @@
                 "web/modules/custom/*/composer.json"
             ],
             "replace": false
+        },
+        "patches": {
+            "drupal/gist_embed": {
+                "Add jQuery dependency": "https://patch-diff.githubusercontent.com/raw/jmolivas/gist_embed/pull/3.patch"
+            }
         }
     }
 }
