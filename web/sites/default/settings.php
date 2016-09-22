@@ -13,6 +13,8 @@ $settings['allow_authorize_operations'] = FALSE;
 
 $settings['container_yamls'][] = __DIR__ . '/services.yml';
 
+$config_directories['sync'] = '../config/sync';
+
 if (file_exists(__DIR__ . '/local.settings.php')) {
   include __DIR__ . '/local.settings.php';
 }
